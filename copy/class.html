@@ -1,0 +1,22 @@
+<script>
+
+
+
+    var outra_empresa = document.querySelector('#outra_empresa')
+    outra_empresa.addEventListener('focus', function () {
+    var outra_empresa = document.querySelector('#outra_empresa')
+    document.querySelector('#outra_empresa').setAttribute('name', 'empresas')
+
+
+    })
+
+
+    document.querySelectorAll('.woocommerce-input-wrapper')[17].addEventListener('click', function () {
+        var outra_empresa = document.querySelector('#outra_empresa')
+      outra_empresa.removeAttribute('name')
+
+          console.log('foi')
+    })
+
+
+</script>
